@@ -12,7 +12,7 @@
     "postuninstall": "electron-builder install-app-deps",
     "cz": "git-cz",
     "bump": "bump-version",
-    "release": "vue-cli-service electron:build --publish always"
+    "release": "vue-cli-service electron:build --publish always -c.snap.publish=github"
   },
   "main": "background.js",
   "husky": {
